@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+header{
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    background: rebeccapurple;
+    padding:15px;
+    font-size: 18px;
+}
+
+#logo {
+    float: left;
+    display: inline-block;
+    color: white;
+}
+
+#menu {
+    list-style: none;
+    margin: 0;
+    margin-right: 15px;
+    padding: 0;
+    float: right;
+}
+
+.menuList {
+    display: inline-block;
+    color: white;
+    margin-right: 15px;
+
+
+}
+
+section{
+    padding: 20px;
+}
+
+#home{
+    background-image: url(../imagens/fundo-section.jpg);
+    background-size: cover;
+}
