@@ -28,6 +28,7 @@ header{
     display: inline-block;
     color: white;
     margin-right: 15px;
+    font-family: museo_sans_500, Arial,Helvetica,sans-serif;
 
 
 }
@@ -37,6 +38,17 @@ section{
 }
 
 #home{
+    
+    
+}
+
+#container{
+    float: left;
     background-image: url(../imagens/fundo-section.jpg);
-    background-size: cover;
+    background-size: contain, cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    display: block;
+
+    
 }
