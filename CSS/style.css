@@ -1,6 +1,20 @@
-body{
+*{
     margin: 0;
+    padding: 0;
 }
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+/*---- header ----*/
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
 header{
     overflow: hidden;
     margin: 0;
@@ -29,26 +43,29 @@ header{
     color: white;
     margin-right: 15px;
     font-family: museo_sans_500, Arial,Helvetica,sans-serif;
-
-
 }
+
+/* ---------------Section-----------------*/
 
 section{
     padding: 20px;
-}
-
-#home{
-    
-    
-}
-
-#container{
-    float: left;
     background-image: url(../imagens/fundo-section.jpg);
-    background-size: contain, cover;
+    background-size: cover;
     background-repeat: no-repeat;
-    padding: 10px;
-    display: block;
+    overflow: hidden;
+}
 
-    
+.formContainer{
+    max-width: 230px;
+    background-color: #ffffffbb;
+    padding: 20px;
+    float: right;
+}
+
+h2{
+    font-size: 16;
+}
+
+.mbInContainer{
+    margin-bottom: 15px;
 }
