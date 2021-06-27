@@ -10,19 +10,7 @@ body{
 
 /*---- header ----*/
 
-.container{
-    max-width: 1080px;
-    margin: auto;
-}
 
-header{
-    overflow: hidden;
-    margin: 0;
-    width: 100%;
-    background: rebeccapurple;
-    padding:15px;
-    font-size: 18px;
-}
 
 #logo {
     float: left;
@@ -33,7 +21,7 @@ header{
 #menu {
     list-style: none;
     margin: 0;
-    margin-right: 15px;
+    margin-right: 10px;
     padding: 0;
     float: right;
 }
@@ -45,21 +33,81 @@ header{
     font-family: museo_sans_500, Arial,Helvetica,sans-serif;
 }
 
+header{
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    margin: 0;
+    background: rebeccapurple;
+    padding:15px;
+    font-size: 18px;
+    
+}
+
+.container{
+    max-width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+
+
 /* ---------------Section-----------------*/
 
 section{
-    padding: 20px;
+    overflow: hidden;
+
+}
+
+.homeContainer{
+    height: 1080px;
     background-image: url(../imagens/fundo-section.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    overflow: hidden;
 }
 
 .formContainer{
-    max-width: 230px;
+    margin-left: 35px;
+    margin-top: 85px;
+    max-width: 300px;
+    max-height: 50%;
     background-color: #ffffffbb;
-    padding: 20px;
-    float: right;
+    padding: 30px;
+    float: left;
+}
+
+.skinCareContainer{
+    height: 1080px;
+    background-image: url(../imagens/fundo-section.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.skinCareFormContainer{
+    margin-left: 35px;
+    margin-top: 85px;
+    max-width: 300px;
+    max-height: 50%;
+    background-color: #ffffffbb;
+    padding: 30px;
+    float: left;
+}
+
+.aboutContainer{
+    height: 1080px;
+    background-image: url(../imagens/fundo-section.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.aboutFormContainer{
+    margin-left: 35px;
+    margin-top: 85px;
+    max-width: 300px;
+    max-height: 50%;
+    background-color: #ffffffbb;
+    padding: 30px;
+    float: left;
 }
 
 h2{
