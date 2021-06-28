@@ -60,55 +60,54 @@ section{
 }
 
 .homeContainer{
-    height: 1080px;
-    background-image: url(../imagens/fundo-section.jpg);
-    background-size: cover;
+    padding: 25px;
+    padding-top: 80px;
+    background-image: url(../imagens/homepic.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    
 }
 
 .formContainer{
-    margin-left: 35px;
-    margin-top: 85px;
-    max-width: 300px;
-    max-height: 50%;
+    max-width: 230px;
+    height: 585px;
     background-color: #ffffffbb;
     padding: 30px;
-    float: left;
+    float: right;
 }
 
 .skinCareContainer{
-    height: 1080px;
+    padding: 25px;
     background-image: url(../imagens/fundo-section.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .skinCareFormContainer{
-    margin-left: 35px;
-    margin-top: 85px;
-    max-width: 300px;
-    max-height: 50%;
+    max-width: 230px;
+    height: 500px;
     background-color: #ffffffbb;
     padding: 30px;
     float: left;
 }
 
 .aboutContainer{
-    height: 1080px;
-    background-image: url(../imagens/fundo-section.jpg);
-    background-size: cover;
+    padding: 25px;
+    background-image: url(../imagens/aboutpic.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
 }
 
 .aboutFormContainer{
-    margin-left: 35px;
-    margin-top: 85px;
-    max-width: 300px;
-    max-height: 50%;
+    max-width: 230px;
+    height: 500px;
     background-color: #ffffffbb;
     padding: 30px;
-    float: left;
-}
+    float: right;
+}*/
 
 h2{
     font-size: 16;
@@ -116,4 +115,13 @@ h2{
 
 .mbInContainer{
     margin-bottom: 15px;
+}
+
+
+/* ---------------- footer -----------------*/
+
+footer{
+    background-color: rebeccapurple;
+    padding: 40px;
+    text-align: center;
 }
