@@ -43,6 +43,10 @@ a:visited{
     color: white;
 }
 
+a:hover{
+    color: white;
+}
+
 header{
     width: 100%;
     position: fixed;
@@ -167,12 +171,12 @@ select{
     background-position: calc(100% - 10px) center;
 }
 
-.menssagemFooterContainer{
-    margin-left: 50px;
+.mensagemFooterContainer{
+    padding: 45px;
     
 }
 
-.footerMenssagem{
+.footerMensagem{
     color: white;
     float: right
 }
