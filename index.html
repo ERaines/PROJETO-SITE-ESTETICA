@@ -13,16 +13,16 @@
         <header>
             <div id="logo">Logo</div>
             <ul id="menu">
-                <li class="menuList">Home</li>
-                <li class="menuList">Tratamentos de Pele</li>
-                <li class="menuList">Sobre </li>
-                <li class="menuList">Contato</li>
+                <li class="menuList"><a href="#homeContainer">Home</a></li>
+                <li class="menuList"><a href="#skinCareContainer">Tratamento de Pele</a></li>
+                <li class="menuList"><a href="#aboutContainer">Sobre</a></li>
+                <li class="menuList"><a href="#formContainer">Contato</a></li>
             </ul>
         </header>
 
         <section>
-            <div class="homeContainer">
-                <div class="formContainer">
+            <div class="homeContainer" id="homeContainer">
+                <div class="boxContainer">
                     <h2 class="mbInContainer">
                         Texto Titulo do Home
                     </h2>
@@ -31,7 +31,7 @@
                 </div>
             </div>
             
-            <div class="skinCareContainer">
+            <div class="skinCareContainer" id="skinCareContainer">
                 <div class="skinCareFormContainer">
                     <h2 class="mbInContainer">
                         Texto Titulo do Tratamentos de Pele
@@ -41,7 +41,7 @@
                 </div>
             </div>
             
-            <div class="aboutContainer">
+            <div class="aboutContainer" id="aboutContainer">
                 <div class="aboutFormContainer">
                     <h2 class="mbInContainer">
                         Texto Titulo do Sobre
@@ -53,7 +53,26 @@
         </section>
 
         <footer>
+            <div class="formContainer" id="formContainer">
+                <form method="post" action="https://hotmail.us6.list-manage.com/subscribe/post?u=3a60b4c2b7a9b698fb20e842d&amp;id=6809ec1f9c" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <input id="name" name="FNAME" type="text" placeholder="Nome">
+                    <input id="email" name="EMAIL" type="text" placeholder="email">
+                    <select name="PLACE">
+                        <option value="bLurdes">Bairro Lurdes</option>
+                        <option value="bPelegrino">São Pelegrino</option>
+                        <option value="bCentro">Centro de Caxias</option>
+                        <option value="bCinquantenario">Cinquentenario</option>
+                    </select>
 
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3a60b4c2b7a9b698fb20e842d_6809ec1f9c" tabindex="-1" value=""></div>
+                    
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+            <div class="menssagemFooterContainer">
+                <h2 class="footerMenssagem">Caso queira receber mais informações a respeito, basta se escrever em nossa central de informações.</h2>
+            </div>
         </footer>
     </div>
 </body>
