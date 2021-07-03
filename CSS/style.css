@@ -13,39 +13,10 @@ body{
 
 
 #logo {
-    float: left;
     display: inline-block;
     color: white;
 }
 
-#menu {
-    list-style: none;
-    margin: 0;
-    margin-right: 10px;
-    padding: 0;
-    float: right;
-}
-
-.menuList {
-    display: inline-block;
-    color: white;
-    margin-right: 15px;
-    font-family: museo_sans_500, Arial,Helvetica,sans-serif;
-    
-    
-}
-
-a{
-    text-decoration: none;
-}
-
-a:visited{
-    color: white;
-}
-
-a:hover{
-    color: white;
-}
 
 header{
     width: 100%;
@@ -55,13 +26,11 @@ header{
     background: rebeccapurple;
     padding:15px;
     font-size: 18px;
-    
 }
 
 .container{
     max-width: 100%;
-    height: 100%;
-    margin: auto;
+    height: 100%;  
 }
 
 
@@ -70,80 +39,61 @@ header{
 
 section{
     overflow: hidden;
+}
 
+h2{
+    font-size: 16;
 }
 
 .homeContainer{
     padding: 25px;
     padding-top: 80px;
+    height: 830px;
+    max-height: 830px;
     background-image: url(../imagens/homepic.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     overflow: hidden;
-    
 }
 
-.boxContainer{
-    max-width: 230px;
-    height: 585px;
+.boxHomeContainer{
+    color: rebeccapurple;
+    max-width: 350px;
+    height: 530px;
     background-color: #ffffffbb;
     padding: 30px;
     float: right;
-}
-
-.skinCareContainer{
-    padding: 25px;
-    background-image: url(../imagens/fundo-section.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.skinCareFormContainer{
-    max-width: 230px;
-    height: 500px;
-    background-color: #ffffffbb;
-    padding: 30px;
-    float: left;
-}
-
-.aboutContainer{
-    padding: 25px;
-    background-image: url(../imagens/aboutpic.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
-}
-
-.aboutFormContainer{
-    max-width: 230px;
-    height: 500px;
-    background-color: #ffffffbb;
-    padding: 30px;
-    float: right;
-}*/
-
-h2{
-    font-size: 16;
 }
 
 .mbInContainer{
     margin-bottom: 15px;
 }
 
-
 /* ---------------- footer -----------------*/
 
 footer{
     padding: 50px;
-    overflow: hidden;
+    text-align: left;
+    display: inline-block;
+}
+
+.picture{
+    width: 315px;
+    margin-top: 20px;
 }
 
 .formContainer{
-    max-width: 230px;
+    margin: 20px;
+    max-width: 300px;
     background-color: #ffffffbb;
     padding: 30px;
-    float: left;
+    float: right;
+}
+
+.formText{
+    color: #9630af;
+    padding-bottom: 15px;
+    text-align: center;
 }
 
 input, select{
@@ -156,7 +106,7 @@ input, select{
 
 input[type="submit"]{
     color: white;
-    background-color: #48c5ce;
+    background-color: #9630af;
     font-weight: bold;
 }
 
@@ -171,12 +121,25 @@ select{
     background-position: calc(100% - 10px) center;
 }
 
-.mensagemFooterContainer{
-    padding: 45px;
-    
+.profissionalDescription{
+    display: inline-block;
+    text-align: start;
+    color: white;
+    max-width: 40%;
+    margin-left: 30px; 
 }
 
-.footerMensagem{
-    color: white;
-    float: right
+.profissionalDescription p, .profissionalDescription h3{
+    margin-top: 20px;
+}
+
+.profissionalDescription h3{
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 676px){
+    .profissionalDescription{
+        text-align: center;
+        max-width: 70%;
+    }
 }
