@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rebeccapurple;
+}
+
+/*---- header ----*/
+
+
+
+#logo {
+    display: inline-block;
+    color: white;
+}
+
+
+header{
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    margin: 0;
+    background: rebeccapurple;
+    padding:15px;
+    font-size: 18px;
+}
+
+.container{
+    max-width: 100%;
+    height: 100%;  
+}
+
+
+
+/* ---------------Section-----------------*/
+
+section{
+    overflow: hidden;
+}
+
+h2{
+    font-size: 16;
+}
+
+.homeContainer{
+    padding: 25px;
+    padding-top: 80px;
+    height: 830px;
+    max-height: 830px;
+    background-image: url(../imagens/homepic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.boxHomeContainer{
+    color: rebeccapurple;
+    max-width: 350px;
+    height: 530px;
+    background-color: #ffffffbb;
+    padding: 30px;
+    float: right;
+}
+
+.mbInContainer{
+    margin-bottom: 15px;
+}
+
+/* ---------------- footer -----------------*/
+
+footer{
+    padding: 50px;
+    text-align: left;
+    display: inline-block;
+}
+
+.picture{
+    width: 315px;
+    margin-top: 20px;
+}
+
+.formContainer{
+    margin: 20px;
+    max-width: 300px;
+    background-color: #ffffffbb;
+    padding: 30px;
+    float: right;
+}
+
+.formText{
+    color: #9630af;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: #9630af;
+    font-weight: bold;
+}
+
+select{ 
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+
+    background-image: url('../imagens/arrow.jpg');
+    background-repeat: no-repeat;
+
+    background-position: calc(100% - 10px) center;
+}
+
+.profissionalDescription{
+    display: inline-block;
+    text-align: start;
+    color: white;
+    max-width: 40%;
+    margin-left: 30px; 
+}
+
+.profissionalDescription p, .profissionalDescription h3{
+    margin-top: 20px;
+}
+
+.profissionalDescription h3{
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 676px){
+    .profissionalDescription{
+        text-align: center;
+        max-width: 70%;
+    }
+}
