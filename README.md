@@ -1,20 +1,19 @@
-# Projeto de site para captura de emails "Profissional de Estetica"
+# Projeto de site para captura de emails "Profissional de Estética"
 
 
-<h3>Objetico do projeto</h3>
+<h3> Objetivo do projeto </h3>
 
-Para praticar HTML, CSS e integração com o serviço [mailchimp](https://mailchimp.com/), alem de iniciar um padrão para possiveis clientes
+Para praticar HTML, CSS e integração com o serviço [mailchimp](https://mailchimp.com/), alem de iniciar um padrão para possíveis clientes
 
 
 <h3>Como usar</h3>
 
-1. Clone o Prjeto em sua maquina
+1. Clone o Projeto em sua máquina
 2. Abra o arquivo index.html no seu navegador.
 
 
 <h3>Exemplo</h3>
 
-**GitHub Pages:** [Link](https://eraines.github.io/CAPTURE-PAGE/)
-
 <img src="https://github.com/ERaines/PROJETO-SITE-ESTETICA/blob/main/imagens/print.png" alt="print" width="700"/>
+
 
