@@ -3,7 +3,7 @@
 
 <h3> Objetivo do projeto </h3>
 
-Para praticar HTML, CSS e integração com o serviço [mailchimp](https://mailchimp.com/), alem de iniciar um padrão para possíveis clientes
+Para praticar HTML, CSS e integração com o serviço [mailchimp](https://mailchimp.com/), além de iniciar um padrão para possíveis clientes
 
 
 <h3>Como usar</h3>
