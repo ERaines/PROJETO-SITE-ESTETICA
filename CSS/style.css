@@ -1,62 +1,46 @@
-*{
-    margin: 0;
-    padding: 0;
-}
 
-body{
+
+body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rebeccapurple;
 }
 
 /*---- header ----*/
 
-
-
 #logo {
     display: inline-block;
     color: white;
 }
 
-
-header{
+header {
     width: 100%;
     position: fixed;
     overflow: hidden;
     margin: 0;
     background: rebeccapurple;
     padding:15px;
-    font-size: 18px;
 }
 
-.container{
+.container {
     max-width: 100%;
-    height: 100%;  
 }
-
-
 
 /* ---------------Section-----------------*/
 
-section{
-    overflow: hidden;
-}
-
-h2{
+h2 {
     font-size: 16;
 }
 
-.homeContainer{
-    padding: 25px;
-    padding-top: 80px;
+.homeContainer {
+    padding: 80px 25px 25px 25px;
     height: 830px;
     max-height: 830px;
     background-image: url(../imagens/homepic.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
 }
 
-.boxHomeContainer{
+.boxHomeContainer {
     color: rebeccapurple;
     max-width: 350px;
     height: 530px;
@@ -65,38 +49,38 @@ h2{
     float: right;
 }
 
-.mbInContainer{
+.mbInContainer {
     margin-bottom: 15px;
 }
 
 /* ---------------- footer -----------------*/
 
-footer{
-    padding: 50px;
+footer {
+    padding: 35px;
     text-align: left;
     display: inline-block;
 }
 
-.picture{
-    width: 315px;
-    margin-top: 20px;
+.picture {
+    width: 20%;
+    margin: 25px 0 0 0;
 }
 
-.formContainer{
-    margin: 20px;
-    max-width: 300px;
+.formContainer {
+    margin: 15px;
+    max-width: 20%;
     background-color: #ffffffbb;
-    padding: 30px;
+    padding: 25px;
     float: right;
 }
 
-.formText{
+.formText {
     color: #9630af;
     padding-bottom: 15px;
     text-align: center;
 }
 
-input, select{
+input, select {
     width: 100%;
     box-sizing: border-box;
     padding: 10px;
@@ -110,36 +94,48 @@ input[type="submit"]{
     font-weight: bold;
 }
 
-select{ 
+select { 
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
-
     background-image: url('../imagens/arrow.jpg');
     background-repeat: no-repeat;
-
     background-position: calc(100% - 10px) center;
 }
 
-.profissionalDescription{
+.profissionalDescription {
     display: inline-block;
     text-align: start;
     color: white;
-    max-width: 40%;
-    margin-left: 30px; 
+    max-width: 30%;
+    margin: 0 0 0 30px; 
+    vertical-align: top;
 }
 
-.profissionalDescription p, .profissionalDescription h3{
+.profissionalDescription p, .profissionalDescription h3 {
     margin-top: 20px;
 }
 
-.profissionalDescription h3{
+.profissionalDescription h3 {
     font-size: 24px;
 }
 
-@media only screen and (max-width: 676px){
-    .profissionalDescription{
+@media only screen and (max-width: 630px) {
+    .profissionalDescription {
         text-align: center;
         max-width: 70%;
     }
+
+    .picture {
+        width: 240px;
+        float: none
+    }
+
+    .formContainer {
+        max-width: 240px;
+        padding: 25px;
+        margin: 20px 5px;
+        float: none
+    }
+        
 }
